@@ -43,17 +43,30 @@ A structured learning path to master Autonomous Robots — from fundamentals to 
   *What you should understand:* This is a **review + deeper dive** into ROS.
 
   **Notes:**
-  1. [Add your first note here]
-  2. [Add your second note here]
-  3. [Add your third note here]
+  1. []
+  ---
 
- - [URDF&Simulation concepts theoretical part](https://github.com/arab-meet/3.URDF_Simulation_Workshop)
-   
- - [URDF&Simulation practical part version 1](https://github.com/MOGI-ROS/Week-3-4-Gazebo-basics)
+## 🏗️ URDF & Simulation
+
+### Theoretical Part
+- **[URDF & Simulation (Repository)](https://github.com/arab-meet/3.URDF_Simulation_Workshop)**
+- **[URDF & Simulation Concepts (Videos)](https://youtube.com/playlist?list=PLYJTYbY2Otg4V0mbKHELr0Zl8MIaFYGMb&si=I6fKnpJc7jhCxBBD)**
+  *What you should understand:* What URDF is (XML format for robot description), how to define links, joints, and visual/collision/inertial properties. Also, basics of simulation environments (Gazebo), and **Transformations between links** (very very important understand it carefully).
+   **Notes:**
+  1. [The Version of Gazebo used in the videos is an old version, just understand the concepts of simulation]
+  2. [The Robot Transformation is very important watch it and understand it carefully, but the syntax it Typed with ROS1 commands (will not with ROS2) so try to seacrch how to convert the ROS1 commands into ROS2 that is exists in the Repo link to work with your machine]
+  3. [There is a hidden video in the play list videos it is only exist in the Repository link]
+  
+### Practical Part – Version 1
+- **[URDF & Simulation Practical v1](https://github.com/MOGI-ROS/Week-3-4-Gazebo-basics)**  
  
- - [URDF&Simulation practical part version 2](https://github.com/MOGI-ROS/Week-5-6-Gazebo-sensors)
+### Practical Part – Version 2
+- **[URDF & Simulation Practical v2](https://github.com/MOGI-ROS/Week-5-6-Gazebo-sensors)**  
 
-
+  **Notes:**
+  1. [The previous two links it the practical parts of the theoretical part of URDF & Simulation, but based on ROS2]
+  
+---
    
 
 
@@ -83,12 +96,3 @@ A structured learning path to master Autonomous Robots — from fundamentals to 
 - [ ] Motion Planning  
 - [ ] SLAM (Simultaneous Localization and Mapping)  
 - [ ] Robot Manipulation / Mobile Robots
-
-## 🔗 Learning Resources
-
-### Courses
-- [Course Name](your-link-here)
-
-
-## 📝 Notes
-- Add your own modifications, links, or focus areas here.
