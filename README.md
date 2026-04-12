@@ -22,7 +22,7 @@ A structured learning path to master Autonomous Mobile Robots.
 
 6. It is preferred to first read the repository and try to understand it, then watch the videos. This leads to active learning instead of passive learning (lazy mind). This method is more effective in the learning process.
 
-7. When you explore the tutorials below, you will find that each has its own resources. So do not be a perfectionist and do not go deeper into too many details at once — that will confuse you and overwhelm you rather than teach you. You will learn everything over time when you get your hands dirty with code, not when you explore everything at once. Just be satisfied with the content below. Once you know these basics, you will be able to learn advanced topics based on what you need.
+7. When you explore the tutorials below, you will find that each has its own resources. So do not be a perfectionist and do not go deeper into too many details and try to understand everything at once, — that will confuse you and overwhelm you rather than teach you. You will learn everything over time when you get your hands dirty with code, not when you explore everything in detailse at once. Just be satisfied with the content below and try to think like **WHAT is this syntax line/keyword DO instead of WHY this or HOW**. Once you know these basics, you will be able to learn advanced topics based on what you need.
 
 ---
 
