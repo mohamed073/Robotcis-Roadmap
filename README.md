@@ -1,25 +1,36 @@
 # Autonomous Robots-Roadmap
 
-A structured learning path to master Autonomous Robots.
+A structured learning path to master Autonomous Mobile Robots.
 
--- **General notes:**
- 1. You have to go in order do not skip any section if you are absoulute begineer.
- 2. it is prefered to work with newer tool versions of LINUX OS , ROS2 (Jazzey), and Gazebo
- 3. Some tutorials uses older versions of ROS2 and Gazebo Simulators 
+-- **Important notes:**
+ 1. You have to go in order do not skip any section if you are absoulute begineer, unless you are know what you are doing.
 
+ 2. it is prefered to work with newer tool versions of Ubuntue 24.04 LTS, ROS2 Jazzey, and Gazebo Harmonic (you will know it later)
+ 
+ 3. Some tutorials below use older versions of ROS1/ROS2 and Gazebo Simulators, it is ok just know the concepts and later you will practice these concepts with the newer versions.
+
+ 4. It is recommendent to learn all concepts below with **python** rather than C++, due to it is easy to unserstand so it will rest you from overhead of knowing the syntx of C++ (it is harder than Python), but when you level up you have to learn C++ to work on real robot Projects because it is more effecent.
+    
+ 5. As much as possible Do the execrcieses of the content of each link below to get into Active learning mode (more effecent), not just copy & paste code or watch tutorial as a movie (Passive mode), e.g. try to type the code on your own before see it and compare your own result with the tutorials, do not ignore the tasks, try to convert the ROS1 code into ROS2 (your own version) after search. just remember "practice makes perfect".
+    
+ 7.  4. It is preferred to watch the Repository first and try to understand it, then watch the videos to go into active learning instead of passive learning (lazy mind), this method is more affective in learning process.
+
+    
+ 8. Make LLM (AI) to help you when you stuck with Errors, convert between different syntax versions e.g.(ROS1 vs. ROS2) if needed.
+    
 --- 
 
 ## Overview 
  
- *What you should understand:* The big picture of Autonomous Robotics
-
+ *What you should understand:* The big picture of Autonomous Robotics.
+ 
 - **[Overview](https://youtu.be/ItqZZ5-2INU?si=0hlkULjL5ICjaPwM)**
 
 ---
 
 ## Theoretical Concepts
 
-*What you should understand:* The theoretical part of each key subfield (perception, SLAM, planning, control), and common career paths
+*What you should understand:* The theoretical part of each key subfield (perception, SLAM, planning, control), and common career paths.
 
 - **[Theoretical concepts about each branch](https://github.com/MMSAutonomousTeam/Autonomous-Sessions-2024?tab=readme-ov-file)**
 
@@ -29,15 +40,14 @@ A structured learning path to master Autonomous Robots.
 
 *What you should understand:* Hands-on setup of essential robotics software (Linux, Git, VS Code)
 
-- **[Robotics-Tools-Workshop Repository](https://github.com/arab-meet/1.Robotics-Tools-Workshop)**  
+- **[Robotics-Tools Repository](https://github.com/arab-meet/1.Robotics-Tools-Workshop)**  
 
-- **[Robotics-Tools Workshop Videos](https://youtube.com/playlist?list=PLYJTYbY2Otg4s7oug2IN6hqwNvP2ksHRx&si=Lfpl1tvFnIq3nWNd)**
+- **[Robotics-Tools Videos](https://youtube.com/playlist?list=PLYJTYbY2Otg4s7oug2IN6hqwNvP2ksHRx&si=Lfpl1tvFnIq3nWNd)**
 
 
   **Notes:**
-  1. The version of Linux in the previous tutorial is old. You have to install a newer version that supports ROS2.
-  2. Try to do excercise in the Repo as much as possible
-  3. There is a practice in the repo that installs a version of ROS1 — ignore it.
+  1. The version of Linux in the previous tutorial is old. You have to install a newer version that supports ROS2 install Ubuntue 24.04 LTS instead.
+  2. There is a practice in the repository that installs a version of ROS1 — ignore it, install **ROS2 Jazzey** instead.
   
 ---
 
@@ -50,13 +60,15 @@ A structured learning path to master Autonomous Robots.
 - **[BME MOGI - ROS Course](https://github.com/MOGI-ROS/Week-1-2-Introduction-to-ROS2)**  
 
   **Notes:**
-  1. The first link (Google Drive) the lecturer use ROS2 Foxy just ignore it and install the newer version of Ubuntu       & ROS2, same as the commands of installing Gazebo simulator also install the newer version not the one listed in      the tutrials 
+  1. The first link (Google Drive) the lecturer use ROS2 Foxy just ignore it and install the newer version of Ubuntu       & ROS2, same as the commands of installing Gazebo simulator also install the newer version not the one listed in      the tutrials.
+  2. the second link it works with the **ROS2 Jazzey** (it is totally ok this version what we are targeting), and it contains the same content as the previous link but with extra concepts with different explaination so it is **optional**, but pay attention that second link you will relay on it to understand some tutorials below, you could just understand the phylosofy that the author type/organize the software with it to be familiar with it.
   
 ---
 
 ## URDF & Simulation
 
  *What you should understand:* What URDF is (XML format for robot description), how to define links, joints, and visual/collision/inertial properties. Also, basics of simulation environments (Gazebo), Transormation (static & dynamic), and RVIZ.
+ 
 - **[URDF & Simulation (Repository)](https://github.com/arab-meet/3.URDF_Simulation_Workshop)**
 
 - **[URDF & Simulation (Videos)](https://youtube.com/playlist?list=PLYJTYbY2Otg4V0mbKHELr0Zl8MIaFYGMb&si=I6fKnpJc7jhCxBBD)**
@@ -65,14 +77,13 @@ A structured learning path to master Autonomous Robots.
 )**
  
  **Notes:**
-  1. The commands in the previous 2 links are assocated with ROS1 it probably will not works for ROS2,Do not worry it     is coverd in ROS2 at the below links, or you can take it an excercise and search how to convert the syntax into ROS2.
+  1. The commands in the previous 2 links are assocated with ROS1 it probably will not works for ROS2, Do not worry it     is coverd in ROS2 at the below links, or you can take it an excercise and search how to convert the syntax into ROS2 version as kind of practice.
      
   2. The Version of Gazebo used in the videos is an old version, Do not worry it is coverd at the below links just understand the concepts of simulation, or try to apply the concepts with your own new version of Gazebo (preffered one).
 
-  3. The Robot **Transformation** is very important watch it and understand it carefully, but the syntax it Typed with        ROS1 commands (will not with ROS2) so try to seacrch how to convert the ROS1 commands into ROS2 that is exists        in the Repo link to work with your machine
+  3. The Robot **Transformation** is very important watch it and understand it carefully, but the syntax it Typed with        ROS1 commands (will not work with ROS2) so try to search how to convert the ROS1 commands into ROS2 that is exists        in the Repository link to work with yours. 
       
-  4. It is preferred to watch the Repository first (first link) and try to understand it, then watch the videos to go into active learning instead of passive learning (lazy mind), this method is more affective in learning process.
-
+ 
  ---
  
  ## URDF & Simulation practial
